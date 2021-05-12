@@ -311,8 +311,8 @@ namespace ProjectKR_Task3
                     else
                         dgv[i, j].Value = 0;
                 }
-            figClr = Color.Green;
-            linesClr = Color.Green;
+            figClr = Color.Red;
+            linesClr = Color.DarkRed;
             FigurePoints = new List<Matrix2D> // координаты фигуры
             {
                 new Matrix2D(2, 1),
